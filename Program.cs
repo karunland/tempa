@@ -21,7 +21,7 @@ public static class Solution
         int i=k;
         //new line
         double maks=0, temp;
-	temp = nums.Take(k).Sum();
+        temp = nums.Take(k).Sum();
         maks = temp / k;
         while (nums.Length > i)
         {
