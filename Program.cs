@@ -19,8 +19,9 @@ public static class Solution
     public static double FindMaxAverage(int[] nums , int k)
     {
         int i=k;
-        double temp, maks = 0;
-        temp = nums.Take(k).Sum();
+        //new line
+        double maks=0, temp;
+	temp = nums.Take(k).Sum();
         maks = temp / k;
         while (nums.Length > i)
         {
