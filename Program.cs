@@ -20,7 +20,7 @@ public static class Solution
     {
         int i=k;
         //new line
-        // rebase line
+        // rebase 2 line
         double maks=0, temp;
         temp = nums.Take(k).Sum();
         maks = temp / k;
