@@ -16,7 +16,7 @@ public static class Solution
     }
 
 
-    public static double FindMaxAverage(int[] nums, int k)
+    public static double FindMaxAverage(int[] nums , int k)
     {
         int i = k;
         double temp, maks=0;
