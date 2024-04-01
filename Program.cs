@@ -18,8 +18,10 @@ public static class Solution
 
     public static double FindMaxAverage(int[] nums , int k)
     {
-        int i = k;
-        double temp, maks=0;
+        int i=k;
+        //new line
+        // rebase 2 line 2222222222222
+        double maks=0, temp;
         temp = nums.Take(k).Sum();
         maks = temp / k;
         while (nums.Length > i)
@@ -33,6 +35,7 @@ public static class Solution
     }
     public static string[] sortStrings(string[] arr)
     {
+        // new line from main
         return arr.OrderBy(s => s[1]).ToArray();
     }
 }
