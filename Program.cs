@@ -34,6 +34,7 @@ public static class Solution
     }
     public static string[] sortStrings(string[] arr)
     {
+        // new line from main
         return arr.OrderBy(s => s[1]).ToArray();
     }
 }
